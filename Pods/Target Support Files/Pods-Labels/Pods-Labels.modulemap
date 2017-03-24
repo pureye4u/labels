@@ -1,0 +1,6 @@
+framework module Pods_Labels {
+  umbrella header "Pods-Labels-umbrella.h"
+
+  export *
+  module * { export * }
+}
