@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		651880491E8521F0008DA16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651880481E8521F0008DA16B /* AppDelegate.swift */; };
-		6518804B1E8521F0008DA16B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6518804A1E8521F0008DA16B /* ViewController.swift */; };
+		6518804B1E8521F0008DA16B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6518804A1E8521F0008DA16B /* RootViewController.swift */; };
 		6518804E1E8521F0008DA16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6518804C1E8521F0008DA16B /* Main.storyboard */; };
 		651880501E8521F0008DA16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6518804F1E8521F0008DA16B /* Assets.xcassets */; };
 		651880531E8521F0008DA16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651880511E8521F0008DA16B /* LaunchScreen.storyboard */; };
+		654A2FB61E85672E00FB3D5C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A2FB51E85672E00FB3D5C /* LeftViewController.swift */; };
+		654A2FBC1E859A5100FB3D5C /* TextEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A2FBB1E859A5100FB3D5C /* TextEditViewController.swift */; };
 		C26D588BB5BD15D624545DDA /* Pods_Labels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F3078CF9DF077F15125A8C /* Pods_Labels.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +22,13 @@
 		4F395CB0B34FFCEE225F24CE /* Pods-Labels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Labels.release.xcconfig"; path = "Pods/Target Support Files/Pods-Labels/Pods-Labels.release.xcconfig"; sourceTree = "<group>"; };
 		651880451E8521F0008DA16B /* Labels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Labels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651880481E8521F0008DA16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6518804A1E8521F0008DA16B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6518804A1E8521F0008DA16B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		6518804D1E8521F0008DA16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6518804F1E8521F0008DA16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651880521E8521F0008DA16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		651880541E8521F0008DA16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654A2FB51E85672E00FB3D5C /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		654A2FBB1E859A5100FB3D5C /* TextEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditViewController.swift; sourceTree = "<group>"; };
 		F5F3078CF9DF077F15125A8C /* Pods_Labels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Labels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				651880481E8521F0008DA16B /* AppDelegate.swift */,
-				6518804A1E8521F0008DA16B /* ViewController.swift */,
+				6518804A1E8521F0008DA16B /* RootViewController.swift */,
+				654A2FB51E85672E00FB3D5C /* LeftViewController.swift */,
+				654A2FBB1E859A5100FB3D5C /* TextEditViewController.swift */,
 				6518804C1E8521F0008DA16B /* Main.storyboard */,
 				6518804F1E8521F0008DA16B /* Assets.xcassets */,
 				651880511E8521F0008DA16B /* LaunchScreen.storyboard */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6518804B1E8521F0008DA16B /* ViewController.swift in Sources */,
+				654A2FB61E85672E00FB3D5C /* LeftViewController.swift in Sources */,
+				654A2FBC1E859A5100FB3D5C /* TextEditViewController.swift in Sources */,
+				6518804B1E8521F0008DA16B /* RootViewController.swift in Sources */,
 				651880491E8521F0008DA16B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
